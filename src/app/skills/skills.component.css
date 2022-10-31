@@ -1,0 +1,108 @@
+body{
+    margin-top: 8%;
+    background-color:  rgba(22, 22, 22, 0);
+}
+
+.titulo{
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    margin-left: 2%;
+}
+
+progress[value]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border:none;
+    background-color: black;
+}
+
+progress[value]::-webkit-progress-value {
+    background-image:
+    -webkit-linear-gradient(-45deg, 
+    transparent 100%, rgba(0, 0, 0, .1) 33%, 
+    rgba(0,0, 0, .1) 66%, transparent 100%),
+-webkit-linear-gradient(top, 
+    rgba(175, 175, 175, 0.25), 
+    rgba(175, 175, 175, 0.25)),
+-webkit-linear-gradient(left, rgb(201, 201, 201), rgb(201, 201, 201));
+      border-radius: 2px; 
+      background-size: 35px 20px, 100% 100%, 100% 100%;
+  }
+
+.habilidades{
+    margin-top: 8%;
+}
+
+.frontend{
+    float: left;
+    margin-left: 12%;
+}
+
+.titulofront{
+    text-align: center;
+    color: rgb(233, 233, 233);
+    margin-bottom: 8%;
+}
+
+.backend{
+    float: left;
+    margin-left: 10%;
+}
+
+.tituloback{
+    text-align: center;
+    color: rgb(233, 233, 233);
+    margin-bottom: 8%;
+}
+
+.extras{
+    float: left;
+    margin-left: 10%;
+}
+
+.tituloextras{
+    text-align: center;
+    color: rgb(233, 233, 233);
+    margin-bottom: 8%;
+}
+
+.front{
+    list-style: none;
+}
+
+.back{
+    list-style: none;
+}
+
+.otros{
+    list-style: none;
+}
+
+.barra{
+    float: right;
+}
+
+.HTML{text-align: center;
+    margin-bottom: 5%;}
+.CSS{text-align: center;
+    margin-bottom: 5%;}
+.Typescript{text-align: center;
+    margin-bottom: 5%;}
+
+.SQL{text-align: center;
+    margin-bottom: 5%;}
+.Java{text-align: center;
+    margin-bottom: 5%;}
+.script{text-align: center;
+    margin-bottom: 5%;}
+
+.C{text-align: center;
+    margin-bottom: 5%;}
+.Fortran{text-align: center;
+    margin-bottom: 5%;}
+.VHDL{text-align: center;
+    margin-bottom: 5%;}
+
+

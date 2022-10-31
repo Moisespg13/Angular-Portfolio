@@ -1,0 +1,21 @@
+.foot{  margin-top: 30%;
+        margin-bottom: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        border: rgba(255, 255, 255, 0.548) solid 1px;
+        background-color: rgba(0, 0, 0, 0);}
+.h6 {   color:rgb(255, 255, 255);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:larger;
+        margin-top: 2%;
+        margin-left: 1.5%;
+        text-align: center;}
+.foot .ul{
+        text-decoration: none;
+        color:rgba(255, 255, 255, 0.692);
+        text-align: center;
+        list-style:none;
+        font-size: medium;
+}
+.li .a {text-decoration: none;
+        color:rgba(255, 255, 255, 0.842);}

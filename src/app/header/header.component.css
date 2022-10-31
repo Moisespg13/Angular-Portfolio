@@ -1,0 +1,90 @@
+.header .arg{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+.banner{
+    /*background-color: black;*/
+    
+    /*background-image:url(Banner2.jpg);*/
+    background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.048),
+      rgb(0, 0, 0)
+     ),
+     linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.048),
+      rgb(0, 0, 0)
+     ),
+     url(Banner2.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    min-height: 18cm;
+    /*border:5px;
+    display:flex;
+    flex-flow: row wrap;
+    align-items:center;
+    justify-content: space-between;*/
+}
+.banner .nombre{
+    backdrop-filter: blur(5px);
+    filter:none;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner .stack{
+    backdrop-filter: blur(5px);
+    color:rgba(255, 255, 255, 0.397);
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner .capa{
+    min-width: 100%;
+    min-height: 100%;
+    filter:blur(10px)
+}
+
+header{
+    width: 100%;
+    min-height: 1cm;
+    border:1px;
+    background: black;
+    display:flex;
+    flex-flow: row wrap;
+    align-items:center;
+    justify-content: space-between;
+    margin-right:100px;
+}
+
+.header .title .h6{ 
+    margin-left: 15px;
+    font-family:sans-serif;
+}
+
+.header .ul{
+    margin-top: 8px;
+    margin-right: 10px;
+    flex-flow: row wrap;
+    list-style: none;
+    align-items:center;
+}
+.header .li{ display: inline;
+    margin-left: 10px;}
+
+.header .ir{display: inline;
+    margin-right: 30px;
+    margin-left: 10px;}
+
+.a {
+    text-decoration: none;
+    color: white;
+}    

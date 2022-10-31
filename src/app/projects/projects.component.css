@@ -1,0 +1,50 @@
+body{
+    background-color:  rgba(22, 22, 22, 0);
+    margin-top: 10%;
+}
+.titulo{
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    margin-left: 2%;
+}
+.port{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 2.5%;
+    color:rgb(209, 209, 209);
+}
+.img{
+    border: rgba(255, 255, 255, 0.548) solid 1px;
+    margin-left: 26.3%;
+    margin-top: 1%;
+    /*transition: all 0.8s ease;
+    float:initial;
+    text-align: center;
+    margin-top: 6%;
+    border: rgba(255, 255, 255, 0.548) solid 1px;*/
+    
+    
+    /*padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+    margin-bottom: 50px;*/
+    
+    /*border: rgba(255, 255, 255, 0.548) solid 1px;
+    height: 100%;
+    width: 100%;
+    margin-left: 30%;*/
+}
+
+img:hover{
+    transition: all 0.6s ease;
+    filter: brightness(30%)
+}
+
+.proyectos{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}

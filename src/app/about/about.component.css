@@ -1,0 +1,33 @@
+body{background-color:  rgba(22, 22, 22, 0.199);}
+.about{
+    width:100%;
+    display: inline-block;
+}
+.foto{
+    font-size:xx-large;
+    color:white;
+    
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    float: left;
+    border: rgba(255, 255, 255, 0.548) solid 1px;
+    height: auto;
+}
+.texto{
+    float: left;
+}
+.titulo{
+    color:white;
+    font-style:inherit;
+    margin-top:2%;
+    margin-left: 30px;
+}
+
+.about .info{
+    margin-top:2%;
+    margin-left: 25px;
+}

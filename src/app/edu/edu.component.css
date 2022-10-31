@@ -1,0 +1,20 @@
+body{
+    background-color:  rgba(22, 22, 22, 0);
+    margin-top: 5%;
+}
+.titulo{
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    margin-left: 2%;
+    
+}
+.edu .h2{font-style: inherit;}
+.ul{
+    margin-top: 6%;
+    margin-left: 8%;
+}
+.edu ul li{
+    list-style:none;
+    margin-bottom: 3%;
+}
